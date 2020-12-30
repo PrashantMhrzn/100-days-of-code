@@ -1,6 +1,6 @@
 from bank import Bank
 
-CHIOCES = '''1.Creat New Account
+CHOICES = '''1.Creat New Account
 2.Deposit 
 3.Withdraw 
 4.Balance Enquiry
@@ -10,7 +10,7 @@ CHIOCES = '''1.Creat New Account
 
 def main():
     print('***Welcome to the Bank Management system!***')
-    usr_inp = int(input(CHIOCES))
+    usr_inp = int(input(CHOICES))
     while usr_inp != 5:
         if usr_inp == 1:
             acc = Bank().create_account()
@@ -30,7 +30,7 @@ def main():
             acc_number = int(input('enter account number: '))
             result = Bank(acc_number).balance_enquiry()
             print(result)
-        usr_inp = int(input(CHIOCES))
+        usr_inp = int(input(CHOICES))
 
 
 if __name__ == '__main__':
