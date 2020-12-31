@@ -4,6 +4,8 @@
 
 **Day1** - Created an expense tracker program that calculates total expenses on fruits and vegetables.
 
-**Day2** - Practiced OOP 
+**Day2** - Practiced OOP.
 
-**Day3** - created Bank management system using OOP
+**Day3** - created Bank management System using OOP.
+
+**Day4** - created a Contact Management System using sqlite.
