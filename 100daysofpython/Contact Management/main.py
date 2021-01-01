@@ -7,6 +7,7 @@ CHOICES = '''1.Add contact
 5.exit
 '''
 
+
 def main():
     print('****Welcome to contact management system****')
     try:
@@ -39,6 +40,7 @@ def main():
                 print(err)
     except UnboundLocalError:
         pass
+
 
 if __name__ == '__main__':
     main()
