@@ -6,6 +6,8 @@
 
 **Day2** - Practiced OOP.
 
-**Day3** - created Bank management System using OOP.
+**Day3** - Created Bank management System using OOP.
 
-**Day4** - created a Contact Management System using sqlite.
+**Day4** - Created a Contact Management System using sqlite.
+
+**Day5** - Practiced sqlite by creating a simple todo program.
