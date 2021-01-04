@@ -11,3 +11,7 @@
 **Day4** - Created a Contact Management System using sqlite.
 
 **Day5** - Practiced sqlite by creating a simple todo program.
+
+**Day6** - Practiced Contect Manager.
+
+**Day7** - Practiced Decorators.
