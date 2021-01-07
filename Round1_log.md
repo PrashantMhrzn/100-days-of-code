@@ -19,3 +19,5 @@
 **Day7** - Practiced Decorators.
 
 **Day8** - Practiced OOP.
+
+**Day9** - Learning Django, Created a Django blog.
