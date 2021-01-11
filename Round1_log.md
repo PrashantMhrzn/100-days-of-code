@@ -23,3 +23,5 @@
 **Day9** - Learning Django, Created a Django blog.
 
 **Day10** - Learned and practiced unittest.
+
+**Day11** - Created Dajngo-COVID tracker. 

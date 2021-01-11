@@ -1,0 +1,23 @@
+{% extends "tracker/base.html" %}
+{% block content %}
+<h1>Welcome!</h1>
+<h2>COVID data of nepal:</h2>
+<div class="container-fluid">
+    <div calss="row">
+        <h5>Tested Positive:</h5>
+        {{ data.tested_positive }}
+    </div>
+    <div calss="row">
+        <h5>Tested Negative:</h5>
+        {{ data.tested_negative }}
+    </div>
+    <div calss="row">
+        <h5>Total Deaths</h5>
+        {{ data.deaths }}
+    </div>
+    <div calss="row">
+        <h5>Total Recovered:</h5>
+        {{ data.recovered }}
+    </div>
+</div>
+{% endblock content %}
