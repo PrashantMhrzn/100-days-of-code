@@ -17,18 +17,24 @@ class Bank:
         return new_account
 
     def deposit(self, deposit_amount):
-        for account in self.ACCOUNT:
-            if account['number'] == self.account_number:
-                account['balance'] += deposit_amount
-                return f'Rs.{deposit_amount} has been credited in your account {self.account_number}!'
-        return 'Account not found'
+        if isinstance(deposit_amount, int):
+            for account in self.ACCOUNT:
+                if account['number'] == self.account_number:
+                    account['balance'] += deposit_amount
+                    return f'Rs.{deposit_amount} has been credited in your account {self.account_number}!'
+            return 'Account not found'
+        raise TypeError("Amount should be integer")
 
     def withdraw(self, withdraw_amount):
-        for account in self.ACCOUNT:
-            if account['number'] == self.account_number and account['balance'] > withdraw_amount:
-                account['balance'] -= withdraw_amount
-                return f'Rs.{withdraw_amount} has been debited in your acc {self.account_number}!'
-        return 'Account not found'
+        if isinstance(withdraw_amount, int):
+            for account in self.ACCOUNT:
+                if account['number'] == self.account_number:
+                    if account['balance'] > withdraw_amount:
+                        account['balance'] -= withdraw_amount
+                        return f'Rs.{withdraw_amount} has been debited in your acc {self.account_number}!'
+                    return "You don't have enough balance"
+            return "Account not found"
+        raise TypeError("Amount should be integer")
 
     def balance_enquiry(self):
         for account in self.ACCOUNT:
