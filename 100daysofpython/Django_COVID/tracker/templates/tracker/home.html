@@ -1,23 +1,24 @@
 {% extends "tracker/base.html" %}
 {% block content %}
-<h1>Welcome!</h1>
-<h2>COVID data of nepal:</h2>
-<div class="container-fluid">
-    <div calss="row">
-        <h5>Tested Positive:</h5>
-        {{ data.tested_positive }}
+<div class="heading">
+    <h1>Welcome</h1>
+</div>
+<h3>COVID Cases Of Nepal</h3>
+<div class="box">
+    <div id="box-1">
+        <p>Total Tested: {{data.tested_total}}</p>
     </div>
-    <div calss="row">
-        <h5>Tested Negative:</h5>
-        {{ data.tested_negative }}
+    <div id="box-2">
+        <p>Total Positive: {{data.tested_positive}}</p>
     </div>
-    <div calss="row">
-        <h5>Total Deaths</h5>
-        {{ data.deaths }}
+    <div id="box-3">
+        <p>Total Negative: {{data.tested_negative}}</p>
     </div>
-    <div calss="row">
-        <h5>Total Recovered:</h5>
-        {{ data.recovered }}
+    <div id="box-4">
+        <p>Total Deaths: {{data.deaths}}</p>
+    </div>
+    <div id="box-4">
+        <p>Total Recovered: {{data.recovered}}</p>
     </div>
 </div>
 {% endblock content %}

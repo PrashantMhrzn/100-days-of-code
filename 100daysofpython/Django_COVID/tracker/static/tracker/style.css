@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background:  #e5e7e9 ;
+    text-align: center;
+}
+
+h3{
+    margin: 10px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #212f3c;
+}
+
+.heading{
+    background:  #45b39d;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #1b2631;
+    padding: 42px;
+    margin: auto;
+}
+
+.box{
+    background:  #bdc3c7;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 3px solid  #909497;
+}
