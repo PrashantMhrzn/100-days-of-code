@@ -37,4 +37,5 @@ def view_all():
     print(c.fetchall())
 
 if __name__ == '__main__':
-    view_all()
+    create_table()
+    #view_all()

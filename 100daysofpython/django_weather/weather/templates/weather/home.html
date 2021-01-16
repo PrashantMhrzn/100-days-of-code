@@ -1,0 +1,15 @@
+{% extends "weather/base.html" %}
+{% block content %}
+<div class="heading">
+    <h1>Welcome</h1>
+</div>
+<h3>Weather of {{ data.timezone }}</h3>
+<div class="box">
+    <div id="box-1">
+        <p>Current Weather: {{data.current.weather.0.main}}</p>
+    </div>
+    <div id="box-2">
+        <p>Temprature/ Feels Like: {{data.current.feels_like}}°C/ {{data.current.feels_like}}°C</p>
+    </div>
+</div>
+{% endblock content %}

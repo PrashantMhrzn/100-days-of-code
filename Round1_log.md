@@ -25,3 +25,5 @@
 **Day10** - Learned and practiced unittest.
 
 **Day11** - Created Dajngo-COVID tracker. 
+
+**Day12** - Created django_weather
